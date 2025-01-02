@@ -1,0 +1,24 @@
+{
+	"type": "array"
+	, "title": "Image List"
+	, "format": "table"
+	, "uniqueItems": true
+	, "items": {
+		"type": "object"
+		, "title": "Image"
+		, "required": [
+			"name"
+			, "filename"
+		]
+		, "properties": {
+			"name": {
+				"type": "string"
+				, "title": "Name"
+			}
+			, "filename": {
+				"type": "string"
+				, "title": "Filename"
+			}
+		}
+	}
+}

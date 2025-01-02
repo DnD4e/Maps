@@ -1,0 +1,8 @@
+title: D&D4e Maps
+description: A Collection of D&D4e Maps
+titles_from_headings:
+    enabled: false
+defaults:
+    -
+        values:
+            layout: default

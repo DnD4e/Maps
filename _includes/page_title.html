@@ -1,0 +1,28 @@
+<section id="title">
+<div class="container mt-2">
+	<h1 class="display-1 text-center">{{ page.title | default: site.title }}</h1>
+
+	<nav class="mt-3">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="/">D&amp;D4e Resources</a></li>
+			{%- if page.title != null %}
+			<li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Maps</a></li>
+			{%- endif %}
+			{%- assign crumbs = page.url | remove: "/index.html" | split: "/" %}
+			{%- for crumb in crumbs offset: 1 %}
+				{%- capture breadcrumbUrl %}{{ breadcrumbUrl }}{{ crumb }}/{%- endcapture %}
+
+				{%- if forloop.last == false %}
+					{%- case crumb %}
+						{%- when "AdventureModules" %}
+			<li class="breadcrumb-item">Adventure Modules</li>
+						{%- when "ScalesOfWar" %}
+			<li class="breadcrumb-item">Scales of War</li>
+					{%- endcase %}
+				{%- endif %}
+			{%- endfor %}
+			<li class="breadcrumb-item active">{{ page.title | default: "Maps" }}</li>
+		</ol>
+	</nav>
+</div>
+</section>
