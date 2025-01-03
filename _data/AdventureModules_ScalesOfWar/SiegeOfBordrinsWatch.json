@@ -1,17 +1,17 @@
 [{
-		"name": "1. Orc Sentries",
-		"filename": "1. Orc Sentries.webp"
-	},
-	{
-		"name": "2. Hall of Moradin",
-		"filename": "2. Hall of Moradin.webp"
-	},
-	{
-		"name": "2.1 Hall of Moradin - Altar Open",
-		"filename": "2.1 Hall of Moradin - Altar Open.webp"
-	},
-	{
-		"name": "3. Hall of Heroes",
-		"filename": "3. Hall of Heroes.webp"
+		"name": "1. Orc Sentries"
+		, "filename": "1. Orc Sentries.webp"
+	}
+	, {
+		"name": "2. Hall of Moradin"
+		, "filename": "2. Hall of Moradin.webp"
+	}
+	, {
+		"name": "2.1 Hall of Moradin - Altar Open"
+		, "filename": "2.1 Hall of Moradin - Altar Open.webp"
+	}
+	, {
+		"name": "3. Hall of Heroes"
+		, "filename": "3. Hall of Heroes.webp"
 	}
 ]
